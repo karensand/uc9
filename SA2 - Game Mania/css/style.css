@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-grid {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.brand {
+    width: 0px;
+}
+
+.search {
+    width: 0px;
+}
+
+.my-count {
+    width: 0px;
+}
+
+.heart {
+    width: 0px;
+}
+
+.bag {
+    width: 0px;
+}
+
+.bannerfull {
+    height: 300px;
+    background-image: url(../Img/Banner\ Rotativo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannertarja {
+    height: 70px;
+    background-image: url(../Img/Banner\ Tarja.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secao-minibanner {
+    background-color: white;
+}
+
+.secao-minibanner {
+    background-color: white;
+}
+
+.minibanner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+    height: 100%;
+}
+
+.minibanner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.secao-destaques {
+    padding: 30px;
+}
+
+.secao-destaque .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco-destaque {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cadrnews {
+    width: 15em;
+    height: 22, 5em;
+    color: white;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 10px white, 0px 0px 30px white;
+}
+
+.cadrnews img {
+    max-width: 60px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
