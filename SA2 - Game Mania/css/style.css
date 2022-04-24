@@ -13,7 +13,6 @@ header {
 }
 
 .container-grid {
-    width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,68 +26,65 @@ header {
 }
 
 .menu a {
-    color: black;
+    color: #191919;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
 
 }
 
-.brand {
-    width: 0px;
+.logo img{
+    width: 180px;
+    height: 95px;
+    display: flex;
+    align-items: center;
 }
 
-.search {
-    width: 0px;
+.busca img{
+    width: 350px;
+    height: auto;
 }
 
-.my-count {
-    width: 0px;
+.conta img{
+    width: 48px;
+    height: auto;
 }
 
-.heart {
-    width: 0px;
+.favorito img{
+    width: 48px;
+    height: auto;
 }
 
-.bag {
-    width: 0px;
+.sacola img{
+    width: 48px;
+    height: auto;
 }
 
 .bannerfull {
-    height: 300px;
+    height: 500px;
     background-image: url(../Img/Banner\ Rotativo.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.bannertarja {
-    height: 70px;
-    background-image: url(../Img/Banner\ Tarja.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.secao-minibanner {
-    background-color: white;
-}
-
-.secao-minibanner {
-    background-color: white;
-}
-
-.minibanner {
+.banner-tarja {
+    padding: 50px;
     display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    align-items: center;
+    justify-content: space-around;
+    align-items: stretch;
     height: 100%;
 }
 
+.secao-minibanner {
+    background-color: white;
+}
+
 .minibanner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    padding-top: 50px;
 }
 
 .secao-destaques {
@@ -102,28 +98,29 @@ header {
 
 .bloco-destaque {
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 100%;    
 }
 
-.content-news {
+.bloco-destaque h2{
+    font-size: 60px;   
+}
+
+.content-news{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin-top: 25px;   
 }
 
-.cadrnews {
-    width: 15em;
-    height: 22, 5em;
-    color: white;
-    margin-bottom: 32px;
-    box-shadow: 0px 0px 10px white, 0px 0px 30px white;
+
+.produtos {
+    width: 250px;
+    height: 350px;
+    color: white;       
 }
 
-.cadrnews img {
+.produtos img {
     max-width: 60px;
     width: 100%;
     height: 100px;
@@ -132,8 +129,50 @@ header {
     flex-direction: column;
 }
 
-.rodape {
+.rodape{
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 50px;
+}
+.links h2{
+    font-size: 25px;
+}
+.links a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.links-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+}
+.newsletter h2{
+    font-size: 14px;
+    margin-bottom: 8px;    
+}
+.newsletter form{
+    display: flex;
+    margin-bottom: 8px;
+}
+.newsletter input[type="email"]{
+    height: 37px;
+    width: 195px;
+}
+,.newsletter input[type="email"]::placeholder{
+    color: #808080;
+    font-weight: bold;
+}
+button{
+    width: 156px;
+    color: white;
+    background-color: #ef7b21;
+    border: none;
+    font-size: 18px;
+}
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
 }
