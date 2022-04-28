@@ -73,7 +73,8 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: stretch;
-    height: 100%;
+    height: 300px;
+    
 }
 
 .secao-minibanner {
@@ -102,7 +103,7 @@ header {
 }
 
 .bloco-destaque h2{
-    font-size: 60px;   
+    font-size: 50px;   
 }
 
 .content-news{
@@ -110,7 +111,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 25px;   
+    margin-top: 25px;       
 }
 
 
@@ -122,7 +123,7 @@ header {
 
 .produtos img {
     max-width: 60px;
-    width: 100%;
+    width: 200px;
     height: 100px;
     display: flex;
     justify-content: space-around;
@@ -133,7 +134,9 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    background-color: #C0C0C0;   
 }
+
 .links h2{
     font-size: 25px;
 }
@@ -145,7 +148,7 @@ header {
 .links-footer{
     display: flex;
     justify-content: space-between;
-    width: 40px;
+    width: 40px;        
 }
 .newsletter h2{
     font-size: 14px;

@@ -1,7 +1,4 @@
 
-function mostrarPopup(){
-    window.alert("Seja bem Vindo")
-}
 
 let email = document.getElementById("campo-email");
 
