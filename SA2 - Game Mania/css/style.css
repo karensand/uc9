@@ -73,9 +73,10 @@ header {
     justify-content: space-between;
 }
 
-.mini-banner {
+.minibanner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    width: 100vw;   
 }
 
 .secao-destaques {
@@ -87,43 +88,83 @@ header {
     justify-content: space-between;
 }
 
-.bloco-destaque {
-    width: 100%;
-    height: 100%;
-}
 
+.produto1 img {
+    top: 50px;
+    margin: 10%;
+} 
+
+.produto2 img {
+    top: 50px;
+    margin: 10%;
+}
+.produto3 img {
+    top: 50px;
+    margin: 10%;
+}
+.produto4 img {
+    top: 50px;
+    margin: 10%;
+}
+.produto5 img {
+    top: 50px;
+    margin: 10%;
+}
+.produto6 img {
+    top: 50px;
+    margin: 10%;
+}
+.produto7 img {
+    top: 50px;
+    margin: 10%;
+}
+.produto8 img {
+    top: 50px;
+    margin: 10%;
+}
+.produto9 img {
+    top: 50px;
+    margin: 10%;
+}
+.produto10 img {
+    top: 50px;
+    margin: 10%;
+}
+.produto11 img {
+    top: 50px;
+    margin: 10%;
+}
+.produto12 img {
+    top: 50px;
+    margin: 10%;
+}
+.produto13 img {
+    top: 50px;
+    margin: 10%;
+}
+.produto14 img {
+    top: 50px;
+    margin: 10%;
+}
+.produto15 img {
+    top: 50px;
+    margin: 10%;
+}
+.produto16 img {
+    top: 50px;
+    margin: 10%;
+}
 .bloco-destaque h2 {
     font-size: 50px;
 }
 
-.content-news {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 25px;
-}
 
-
-.produtos {
-    width: 250px;
-    height: 350px;
-    color: white;
-}
-
-.produtos img {
-    max-width: 60px;
-    width: 200px;
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-}
 
 .rodape {
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    padding-top: 50px;
     background-color: #C0C0C0;
 }
 
@@ -182,16 +223,29 @@ button {
     .container-grid {
         width: 80%;
     }
+    .banners-tarja {
+        width: 80%;
+    }
+   
+    
 }
 
 @media screen and (max-width: 768px) {
     .container-grid {
         width: 60%;
     }
+    .banners-tarja {
+        width: 60%;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 576px) {
     .container-grid {
         width: 50%;
+    }
+    .banners-tarja {
+        width: 50%;
+        align-items: center;
     }
 }
