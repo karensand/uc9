@@ -67,7 +67,6 @@ header {
     background-size: cover;
 }
 
-
 .banners-tarja {
     display: flex;
     justify-content: space-between;
@@ -87,7 +86,6 @@ header {
     display: flex;
     justify-content: space-between;
 }
-
 
 .produto1 img {
     top: 50px;
@@ -158,18 +156,16 @@ header {
     font-size: 50px;
 }
 
-
-
 .rodape {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
-    padding-top: 50px;
+    padding: 50px;    
     background-color: #C0C0C0;
+    margin: 50px;
 }
 
 .links h2 {
-    font-size: 25px;
+    font-size: 25px;   
 }
 
 .links a {
@@ -181,25 +177,25 @@ header {
 .links-footer {
     display: flex;
     justify-content: space-between;
-    width: 40px;
+    width: 900px;
 }
 
-.newsletter h2 {
-    font-size: 14px;
+.newsletter h2{
+    font-size: 16px;
     margin-bottom: 8px;
 }
 
-.newsletter form {
+.newsletter form{
     display: flex;
     margin-bottom: 8px;
 }
 
-.newsletter input[type="email"] {
+.newsletter input[type="email"]{
     height: 37px;
     width: 195px;
 }
 
-.newsletter input[type="email"]::placeholder {
+.newsletter input[type="email"]::placeholder{
     color: #808080;
     font-weight: bold;
 }
@@ -216,36 +212,58 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 8px;
+    margin-top: 15px;
+}
+
+
+.hamburguer{
+    width: 40px;
+    display: none;
+}
+.posicionamento-header{
+    position: relative;
 }
 
 @media screen and (max-width: 1200px) {
-    .container-grid {
-        width: 80%;
+    .container-grid{
+        width: 90%;
     }
-    .banners-tarja {
-        width: 80%;
-    }
-   
+    .menu a{
+        font-size: 50px;
+    }      
     
+    .logo{
+        width: 200px;        
+    }
 }
+    .banners-tarja {
+        width: 90%;
+    }     
 
 @media screen and (max-width: 768px) {
     .container-grid {
         width: 60%;
     }
+
+    .hamburguer{
+        display: inline-block;
+    }
+
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 250px;      
+        position: absolute;
+    }
+
     .banners-tarja {
-        width: 60%;
+        width: 30%;
         align-items: center;
+    }
+    .menu a{
+        text-align: center;
+        padding: 15px;
     }
 }
 
-@media screen and (max-width: 576px) {
-    .container-grid {
-        width: 50%;
-    }
-    .banners-tarja {
-        width: 50%;
-        align-items: center;
-    }
-}
+
